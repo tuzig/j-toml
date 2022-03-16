@@ -313,7 +313,7 @@ const done = ()       => {
 
 const RangeError$1 = RangeError;
 
-const BigInt$1 = BigInt;
+const BigInt$1 = globalThis.BigInt;
 
 const WeakMap$1 = WeakMap;
 
